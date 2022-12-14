@@ -2,9 +2,9 @@ import * as Styled from "./styles";
 
 export type ButtonProps = {
   children: React.ReactNode;
-  onClickFn: () => void;
+  onClick: () => void;
 };
 
-export const Button = ({ children, onClickFn }: ButtonProps) => {
-  return <Styled.Wrapper onClick={onClickFn}>{children}</Styled.Wrapper>;
+export const Button = ({ children, onClick }: ButtonProps) => {
+  return <Styled.Wrapper onClick={onClick}>{children}</Styled.Wrapper>;
 };

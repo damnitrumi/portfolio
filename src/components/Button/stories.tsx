@@ -6,7 +6,7 @@ export default {
   component: Button,
   args: {
     children: "Clique Aqui",
-    onClickFn: () => console.log("123"),
+    onClick: () => console.log("123"),
   },
 } as Meta<ButtonProps>;
 

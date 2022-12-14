@@ -21,3 +21,13 @@ export const NavContainer = styled(Container)`
     position: fixed;
     width: 100%;
 `;
+
+export const bgMenu = styled.div`
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* pointer-events: none; */
+`;

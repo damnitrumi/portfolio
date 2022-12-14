@@ -1,7 +1,12 @@
-import { Heading } from "components/Heading";
+import { Nav } from "components/Nav";
+import { Section1 } from "components/Section1";
+import * as Styled from "./styles";
 
-function Home() {
-  return <Heading>Example</Heading>;
-}
-
-export default Home;
+export const Home = () => {
+  return (
+    <Styled.Wrapper>
+      <Nav />
+      <Section1 />
+    </Styled.Wrapper>
+  );
+};

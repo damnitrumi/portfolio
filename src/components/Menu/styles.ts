@@ -1,22 +1,20 @@
 import styled, { css } from "styled-components";
+import { MenuBehaviorProps } from ".";
 
-export const Wrapper = styled.div`
-    ${() => css`
-        height: 100vh;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.2);
-        display: flex;
-        justify-content: flex-end;
-        position: absolute;
-        top: 0;
-        left: 0;
-    `}
-`;
+export const Wrapper = styled.div<MenuBehaviorProps>`
+    ${({ menuVisible }) => css`
+    position: fixed;
+    width: 100%;
+    max-width: 500px;
+    top: 0;
+    right: -100%;
+    transition: all .8s ease-in-out;
 
-export const Menu = styled.div`
-    ${({ theme }) => css`
-        height: 100%;
-        /* background-color: ${theme.colors.primaryColor}; */
-        flex: 0 1 500px;
+    ${
+      menuVisible &&
+      css`
+        right: 0;
+    `
+    }
     `}
 `;

@@ -8,23 +8,22 @@ export type MenuProps = {
   onClick: () => void;
 };
 
-export const Menu = ({ onClick }: MenuProps) => {
+export type MenuBehaviorProps = {
+  menuVisible: boolean;
+};
+
+export const Menu = ({
+  menuVisible,
+  onClick,
+}: MenuProps & MenuBehaviorProps) => {
   return (
-    <Styled.Wrapper>
-      <Styled.Menu>
-        <Container>
-          <Button onClickFn={onClick}>
-            <CloseIcon size="30px" />
-          </Button>
-          <Link href="/">Home</Link>
-          <Link href="/">Home</Link>
-          <Link href="/">Home</Link>
-          <Link href="/">Home</Link>
-          <Link href="/">Home</Link>
-          <Link href="/">Home</Link>
-          <Link href="/">Home</Link>
-        </Container>
-      </Styled.Menu>
+    <Styled.Wrapper menuVisible={menuVisible}>
+      <Container>
+        <Button onClick={onClick}>
+          <CloseIcon size="30px" />
+        </Button>
+        <Link href="/">Link</Link>
+      </Container>
     </Styled.Wrapper>
   );
 };

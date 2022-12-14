@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 import { StyledIconBase } from "@styled-icons/styled-icon";
 
 export const GlobalStyles = createGlobalStyle`
+
   * {
     margin: 0;
     padding: 0;
@@ -24,7 +25,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: ${({ theme }) => theme.font.family.secondary};
+    font-family: ${({ theme }) => theme.font.family.headings};
   }
 
   a {
