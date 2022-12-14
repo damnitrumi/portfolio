@@ -6,7 +6,7 @@ import '../public/assets/fonts/styles.css';
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   backgrounds: {
-    default: 'light',
+    default: 'dark',
     values: [
       {
         name: 'light',
@@ -18,13 +18,16 @@ export const parameters = {
       },
     ],
   },
+  layout: 'fullscreen'
 };
 
 export const decorators = [
   (Story) => (
     <ThemeProvider theme={theme}>
-      <Story />
-      <GlobalStyles />
+      <div style={{height: '200vh'}}>
+        <Story />
+        <GlobalStyles />
+      </div>
     </ThemeProvider>
   ),
 ];
