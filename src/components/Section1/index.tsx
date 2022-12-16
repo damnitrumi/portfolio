@@ -3,6 +3,7 @@ import { DataContainer } from "components/DataContainer";
 import { Heading } from "components/Heading";
 import * as Styled from "./styles";
 import { useEffect, useRef, useState } from "react";
+import { Text } from "components/Text";
 
 export const Section1 = () => {
   const index = useRef(0);
@@ -47,6 +48,7 @@ export const Section1 = () => {
       <Container>
         <DataContainer>
           <Heading size="9.2rem">{`${currentText}${currentDots}`}</Heading>
+          <Text>DESENVOLVEDOR FRONT-END</Text>
         </DataContainer>
       </Container>
     </Styled.Wrapper>

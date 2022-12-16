@@ -9,7 +9,8 @@ export const theme = {
     family: {
       default: "'Open Sans', sans-serif",
       secondary: "'Montserrat', sans-serif",
-      headings: "Bebas-Neue",
+      headings: "Bebas Neue",
+      body: "Gotham",
     },
     sizes: {
       xsmall: "8rem",

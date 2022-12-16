@@ -5,6 +5,16 @@ export const Wrapper = styled.div`
         max-width: 1100px;
         margin: 0 auto;
         height: 100%;
-        padding: 200px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     `}
 `;
+// export const Wrapper = styled.div`
+//     ${() => css`
+//         max-width: 1100px;
+//         margin: 0 auto;
+//         height: 100%;
+//         padding: 200px 0;
+//     `}
+// `;

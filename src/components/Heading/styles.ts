@@ -10,8 +10,8 @@ const pickSize = (size: string) => {
 };
 
 export const Title = styled.h1<HeadingProps>`
-${({ size, as }) => css`
-  color: white;
+${({ theme, size, as }) => css`
+  color: ${theme.colors.white};
   ${pickSize(size)}
   font-weight: ${as == "h1" ? 500 : 400};
 `}
