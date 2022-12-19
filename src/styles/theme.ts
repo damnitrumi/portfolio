@@ -3,7 +3,10 @@ export const theme = {
     primaryColor: "#1b1b1b",
     secondaryColor: "#dc143c",
     white: "#FFFFFF",
+    black: "#000000",
     mediumGray: "#DDDDDD",
+    hoverGreen: "#06c819",
+    menuGray: "#616161",
   },
   font: {
     family: {

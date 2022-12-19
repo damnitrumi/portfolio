@@ -16,6 +16,6 @@ export const WebsiteContainer = styled.div`
       &::-webkit-scrollbar{
         display: none;
       }
-      margin-top: 20px;
+      margin-top: 30px;
     `}
 `;

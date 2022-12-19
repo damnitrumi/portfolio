@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1;
   }
 
   img{
@@ -38,7 +39,7 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.colors.white};
     transition: all 300ms ease-in-out;
     &:hover{
-      color: #00FF00;
+      color: ${({ theme }) => theme.colors.hoverGreen};
     }
   }
 

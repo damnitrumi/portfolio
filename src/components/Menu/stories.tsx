@@ -9,7 +9,7 @@ export default {
 export const Template: Story<MenuProps> = (args) => {
   return (
     <div>
-      <Menu {...args} />
+      <Menu menuVisible {...args} />
     </div>
   );
 };

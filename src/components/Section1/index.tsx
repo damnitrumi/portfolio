@@ -44,11 +44,11 @@ export const Section1 = () => {
   }, [currentText, currentDots]);
 
   return (
-    <Styled.Wrapper>
+    <Styled.Wrapper id="home">
       <Container>
         <DataContainer>
           <Heading size="9.2rem">{`${currentText}${currentDots}`}</Heading>
-          <Text>DESENVOLVEDOR FRONT-END</Text>
+          <Text size="2.2rem">DESENVOLVEDOR FRONT-END</Text>
         </DataContainer>
       </Container>
     </Styled.Wrapper>

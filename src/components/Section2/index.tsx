@@ -2,72 +2,65 @@ import { Container } from "components/Container";
 import { DataContainer } from "components/DataContainer";
 import { Text } from "components/Text";
 import * as Styled from "./styles";
+import {
+  Html5,
+  Css3,
+  Javascript,
+  ReactLogo,
+} from "@styled-icons/boxicons-logos";
+import { Typescript, Nextdotjs, Jest } from "@styled-icons/simple-icons";
+import { Heading } from "components/Heading";
 
 export const Section2 = () => {
   return (
-    <Styled.Wrapper>
+    <Styled.Wrapper id="sobre">
       <Container>
         <DataContainer>
-          <Text>
-            Desde maio de 2021 estudando para ser um desenvolvedor front-end,
-            atualmente trabalho com React.js/Next.JS. No momento procuro a
-            primeira oportunidade como desenvolvedor front-end júnior. Procuro
-            futuramente estudar sobre React Native pois penso em partir para o
-            desenvolvimento Mobile também. Inglês fluente. Veja meus projetos em
-            github.com/damnitrumi
+          <Heading size="3.2rem" as="h3">
+            Desde maio de 2021 estudando para ser um desenvolvedor front-end.
+          </Heading>
+          <Text size="2.2rem">Atualmente trabalho com React.js/Next.JS. </Text>
+          <Text size="2.2rem">
+            No momento procuro a primeira oportunidade como desenvolvedor
+            front-end júnior, e futuramente pretendo estudar sobre React Native
+            pois penso em partir para o desenvolvimento Mobile.
           </Text>
+          <Text size="2.2rem">Inglês fluente.</Text>
+          <Styled.HeadingLink size="2.2rem" as="h3">
+            <a
+              href="https://github.com/damnitrumi?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Clique aqui para ver os repositórios dos projetos
+            </a>
+          </Styled.HeadingLink>
           <Styled.IconsContainer>
-            <Styled.IconContainer>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                alt="HTML Icon"
-              />
-            </Styled.IconContainer>
-
-            <Styled.IconContainer>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                alt="CSS Icon"
-              />
-            </Styled.IconContainer>
-
-            <Styled.IconContainer>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                alt="Javascript Icon"
-              />
-            </Styled.IconContainer>
-
-            <Styled.IconContainer>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                alt="Typescript Icon"
-              />
-            </Styled.IconContainer>
-
-            <Styled.IconContainer>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-                alt="React.js Icon"
-              />
-            </Styled.IconContainer>
-
-            <Styled.IconContainer>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-                alt="Next.js Icon"
-              />
-            </Styled.IconContainer>
-
-            <Styled.IconContainer>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
-                alt="JEST Icon"
-              />
-            </Styled.IconContainer>
+            <Html5 size="50px" />
+            <Css3 size="50px" />
+            <Javascript size="50px" />
+            <Typescript size="37px" />
+            <ReactLogo size="37px" />
+            <Nextdotjs size="37px" />
+            <Jest size="37px" />
           </Styled.IconsContainer>
         </DataContainer>
       </Container>
     </Styled.Wrapper>
   );
 };
+
+{
+  /* <Text size="2.4rem">
+            <br></br>
+            Atualmente trabalho com React.js/Next.JS. <br></br>
+            No momento procuro a primeira oportunidade como desenvolvedor
+            front-end júnior, e <br></br>
+            futuramente pretendo estudar sobre React Native pois penso em partir
+            para o <br></br>
+            desenvolvimento Mobile. <br></br>
+            <br></br>
+            Inglês fluente. <br></br>
+            <br></br>
+          </Text> */
+}

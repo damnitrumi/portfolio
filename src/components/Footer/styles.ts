@@ -3,6 +3,8 @@ import { Wrapper as Container } from "../Container/styles";
 
 export const Wrapper = styled.div`
   ${() => css`
+    display: flex;
+    justify-content: space-between;
   `}
 `;
 
@@ -14,4 +16,7 @@ export const FooterContainer = styled(Container)`
     bottom: 0;
 `;
 
-export const LinksContainer = styled.div``;
+export const LinksContainer = styled.div`
+  display: flex;
+  gap: 10px;
+`;

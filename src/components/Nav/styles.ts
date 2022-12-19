@@ -11,7 +11,7 @@ export const Wrapper = styled.nav`
 
 export const imgContainer = styled.a`
     ${() => css`
-        max-width: 200px;
+        max-width: 150px;
     `}
 `;
 
@@ -20,6 +20,7 @@ export const NavContainer = styled(Container)`
     height: auto;
     position: fixed;
     width: 100%;
+    z-index: 1;
 `;
 
 export const bgMenu = styled.div`

@@ -4,6 +4,11 @@ import { Menu as MenuIcon } from "@styled-icons/material-outlined";
 import { useState } from "react";
 import { Menu } from "components/Menu";
 
+// export type NavProps = {
+//   menuVisible: boolean;
+//   handleMenuClick: () => void;
+// };
+
 export const Nav = () => {
   const [menuVisible, setMenuVisible] = useState(false);
 
@@ -13,7 +18,7 @@ export const Nav = () => {
   return (
     <Styled.NavContainer>
       <Styled.Wrapper>
-        <Styled.imgContainer href="/">
+        <Styled.imgContainer href="#home">
           <img
             src="assets/images/damn-it-rumi-text-white.png"
             alt="Damn It Rumi Logo"

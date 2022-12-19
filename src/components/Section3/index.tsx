@@ -6,7 +6,7 @@ import * as Styled from "./styles";
 
 export const Section3 = () => {
   return (
-    <Styled.Wrapper>
+    <Styled.Wrapper id="ed_exp">
       <Container>
         <DataContainer>
           <Styled.Education>
@@ -44,7 +44,7 @@ export const Section3 = () => {
               <Text size="1.4rem">
                 Realizava a função de suporte de sistemas de TI, onde trabalhava
                 com a manutenção de servidores (Locais e em nuvem) e banco de
-                dados.{" "}
+                dados.
               </Text>
             </Styled.ExperienceData>
           </Styled.Experience>

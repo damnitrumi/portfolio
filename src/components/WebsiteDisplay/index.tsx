@@ -2,16 +2,18 @@ import { Text } from "components/Text";
 import * as Styled from "./styles";
 
 export type WebsiteDisplayProps = {
-  title?: string;
+  link: string;
+  srcImg: string;
+  name: string;
 };
 
-export const WebsiteDisplay = ({ title }: WebsiteDisplayProps) => {
+export const WebsiteDisplay = ({ link, srcImg, name }: WebsiteDisplayProps) => {
   return (
-    <Styled.Wrapper href="/">
+    <Styled.Wrapper href={link} target="_blank">
       <Styled.ImgContainer>
-        <img src="/assets/images/Background Wide.jpg" alt="" />
+        <img src={srcImg} alt={name} />
       </Styled.ImgContainer>
-      <Text>Nome Aqui</Text>
+      <Text>{name}</Text>
     </Styled.Wrapper>
   );
 };
