@@ -23,12 +23,16 @@ export const Wrapper = styled.section`
     `}
 `;
 export const Education = styled.div`
-    ${() => css`
+    ${({ theme }) => css`
       background-color: rgba(255, 255, 255, 0.2);
       flex: 0 1 500px;
       padding: 50px;
       transition: all 300ms ease-in-out;
       border-radius: 5px ;
+
+      @media ${theme.media.ltaMedium}{
+        flex: 0 1 auto;
+      }
 
       &:hover{
         background-color: #c32865;
@@ -47,12 +51,17 @@ export const EducationData = styled.div`
 `;
 
 export const Experience = styled.div`
-    ${() => css`
+    ${({ theme }) => css`
     background-color: rgba(255, 255, 255, 0.2);
     flex: 0 1 500px;
     padding: 50px;
     transition: all 300ms ease-in-out;
     border-radius: 5px ;
+
+    @media ${theme.media.ltaMedium}{
+        flex: 0 1 auto;
+      }
+
     &:hover{
         background-color: #c32865;
       }

@@ -5,7 +5,7 @@ import { Wrapper as Text } from "../Text/styles";
 import { Title as Heading } from "../Heading/styles";
 
 export const Wrapper = styled.section`
-    ${({ theme }) => css`
+    ${() => css`
       ${DataContainer}{
         justify-content: flex-start;
 
@@ -26,14 +26,21 @@ export const Wrapper = styled.section`
 `;
 
 export const IconsContainer = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+    max-width: 400px;
 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  margin-top: 10px;
-  max-width: 400px;
+    @media ${theme.media.ltaMedium}{
+      gap: 2px;
+      max-width: 100%;
+    }
+  `}
+
 `;
 
 export const IconContainer = styled.div`
@@ -54,6 +61,14 @@ export const HeadingLink = styled(Heading)`
     a:hover{
       color: ${theme.colors.white};
       background-color: ${theme.colors.hoverGreen};
+    }
+
+    @media ${theme.media.ltaMedium}{
+      font-size: 1.6rem;
+      a{
+        max-width: 100%;
+        text-align: center;
+      }
     }
 
   `}

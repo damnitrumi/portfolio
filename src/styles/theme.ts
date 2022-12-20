@@ -7,6 +7,7 @@ export const theme = {
     mediumGray: "#DDDDDD",
     hoverGreen: "#06c819",
     menuGray: "#616161",
+    mediaGray: "#272727",
   },
   font: {
     family: {

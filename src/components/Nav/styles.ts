@@ -21,6 +21,10 @@ export const NavContainer = styled(Container)`
     position: fixed;
     width: 100%;
     z-index: 1;
+
+    @media ${({ theme }) => theme.media.ltaMedium}{
+      background-color: ${({ theme }) => theme.colors.mediaGray};
+    }
 `;
 
 export const bgMenu = styled.div`

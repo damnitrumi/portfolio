@@ -29,18 +29,24 @@ export const Menu = ({
         </Styled.ButtonContainer>
         <Styled.LinksContainer>
           <Heading>
-            <Link href="#home">Home</Link>
-          </Heading>
-          <Heading>
-            <Link href="#sobre" passHref>
-              Sobre
+            <Link href="#home" onClick={onClick}>
+              <a onClick={onClick}>Home</a>
             </Link>
           </Heading>
           <Heading>
-            <Link href="#ed_exp">Educação & Experiência</Link>
+            <Link href="#sobre">
+              <a onClick={onClick}>Sobre</a>
+            </Link>
           </Heading>
           <Heading>
-            <Link href="#projetos">Projetos</Link>
+            <Link href="#ed_exp">
+              <a onClick={onClick}>Educação & Experiência</a>
+            </Link>
+          </Heading>
+          <Heading>
+            <Link href="#projetos">
+              <a onClick={onClick}>Projetos</a>
+            </Link>
           </Heading>
         </Styled.LinksContainer>
         <Styled.IconsContainer>

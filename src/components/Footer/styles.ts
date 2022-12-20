@@ -14,6 +14,10 @@ export const FooterContainer = styled(Container)`
     position: fixed;
     width: 100%;
     bottom: 0;
+
+    @media ${({ theme }) => theme.media.ltaMedium}{
+      background-color: ${({ theme }) => theme.colors.mediaGray};
+    }
 `;
 
 export const LinksContainer = styled.div`
