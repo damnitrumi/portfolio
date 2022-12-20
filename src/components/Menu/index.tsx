@@ -29,7 +29,7 @@ export const Menu = ({
         </Styled.ButtonContainer>
         <Styled.LinksContainer>
           <Heading>
-            <Link href="#home" onClick={onClick}>
+            <Link href="#home">
               <a onClick={onClick}>Home</a>
             </Link>
           </Heading>

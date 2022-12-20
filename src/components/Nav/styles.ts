@@ -19,8 +19,14 @@ export const NavContainer = styled(Container)`
     background-color: transparent;
     height: auto;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
+    transition: all 500ms ease-in;
+
+    &.active-menu{
+      top: -80px;
+    }
 
     @media ${({ theme }) => theme.media.ltaMedium}{
       background-color: ${({ theme }) => theme.colors.mediaGray};
