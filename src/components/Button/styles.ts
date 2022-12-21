@@ -1,7 +1,9 @@
 import styled, { css } from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.button`
     ${() => css`
-        cursor: pointer;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
     `}
 `;
