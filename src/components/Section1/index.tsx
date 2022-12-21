@@ -1,9 +1,9 @@
-import { Container } from "components/Container";
-import { DataContainer } from "components/DataContainer";
-import { Heading } from "components/Heading";
+import { Container } from "../Container";
+import { DataContainer } from "../DataContainer";
+import { Heading } from "../Heading";
 import * as Styled from "./styles";
 import { useEffect, useRef, useState } from "react";
-import { Text } from "components/Text";
+import { Text } from "../Text";
 
 export const Section1 = () => {
   const index = useRef(0);

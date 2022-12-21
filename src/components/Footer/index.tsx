@@ -1,4 +1,4 @@
-import { Text } from "components/Text";
+import { Text } from "../Text";
 import * as Styled from "./styles";
 import { Github } from "@styled-icons/boxicons-logos/Github";
 import { LinkedinSquare } from "@styled-icons/boxicons-logos/LinkedinSquare";

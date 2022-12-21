@@ -1,4 +1,4 @@
-import { screen } from "@testing-library/react";
+import { fireEvent, screen } from "@testing-library/react";
 import { renderTheme } from "../../styles/render-theme";
 import { Button, ButtonProps } from ".";
 import { vi } from "vitest";
@@ -20,6 +20,16 @@ describe("<Button />", () => {
 
     renderTheme(<Button {...props} onClick={fn} />);
 
-    expect(screen.getByText("Clique Aqui")).toBeInTheDocument();
+    const button = screen.getByText("Clique Aqui");
+
+    fireEvent.click(button);
+
+    expect(fn).toHaveBeenCalledTimes(1);
+  });
+
+  it("should match snapshot", () => {
+    renderTheme(<Button {...props} />);
+
+    expect(screen.getByText("Clique Aqui")).toMatchSnapshot();
   });
 });

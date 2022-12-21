@@ -1,9 +1,9 @@
-import { Button } from "components/Button";
-import { Container } from "components/Container";
+import { Button } from "../Button";
+import { Container } from "../Container";
 import Link from "next/link";
 import * as Styled from "./styles";
 import { Close as CloseIcon } from "@styled-icons/material-outlined";
-import { Heading } from "components/Heading";
+import { Heading } from "../Heading";
 import { Github } from "@styled-icons/boxicons-logos/Github";
 import { LinkedinSquare } from "@styled-icons/boxicons-logos/LinkedinSquare";
 
@@ -20,7 +20,7 @@ export const Menu = ({
   onClick,
 }: MenuProps & MenuBehaviorProps) => {
   return (
-    <Styled.Wrapper menuVisible={menuVisible}>
+    <Styled.Wrapper menuVisible={menuVisible} aria-hidden={!menuVisible}>
       <Container>
         <Styled.ButtonContainer>
           <Button onClick={onClick}>

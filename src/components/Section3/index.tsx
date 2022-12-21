@@ -1,7 +1,7 @@
-import { Container } from "components/Container";
-import { DataContainer } from "components/DataContainer";
-import { Heading } from "components/Heading";
-import { Text } from "components/Text";
+import { Container } from "../Container";
+import { DataContainer } from "../DataContainer";
+import { Heading } from "../Heading";
+import { Text } from "../Text";
 import * as Styled from "./styles";
 
 export const Section3 = () => {

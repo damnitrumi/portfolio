@@ -43,10 +43,6 @@ export const IconsContainer = styled.div`
 
 `;
 
-export const IconContainer = styled.div`
-      flex: 0 1 50px;
-`;
-
 export const HeadingLink = styled(Heading)`
   ${({ theme }) => css`
 

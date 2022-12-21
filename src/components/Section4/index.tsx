@@ -1,7 +1,7 @@
-import { Container } from "components/Container";
-import { DataContainer } from "components/DataContainer";
-import { Heading } from "components/Heading";
-import { WebsiteDisplay } from "components/WebsiteDisplay";
+import { Container } from "../Container";
+import { DataContainer } from "../DataContainer";
+import { Heading } from "../Heading";
+import { WebsiteDisplay } from "../WebsiteDisplay";
 import * as Styled from "./styles";
 import { projectLinks } from "./projectLinks";
 

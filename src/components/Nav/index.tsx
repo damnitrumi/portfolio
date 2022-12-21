@@ -1,8 +1,8 @@
-import { Button } from "components/Button";
+import { Button } from "../Button";
 import * as Styled from "./styles";
 import { Menu as MenuIcon } from "@styled-icons/material-outlined";
 import { useEffect, useState } from "react";
-import { Menu } from "components/Menu";
+import { Menu } from "../Menu";
 
 export const Nav = () => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -66,7 +66,7 @@ export const Nav = () => {
           <MenuIcon size="30px" />
         </Button>
       </Styled.Wrapper>
-      {menuVisible && <Styled.bgMenu />}
+      {menuVisible && <Styled.bgMenu aria-label="bgMenu" />}
 
       <Menu menuVisible={menuVisible} onClick={handleMenuClick} />
     </Styled.NavContainer>

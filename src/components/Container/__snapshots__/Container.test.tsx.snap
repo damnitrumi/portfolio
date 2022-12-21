@@ -1,0 +1,21 @@
+// Vitest Snapshot v1
+
+exports[`<Container /> > should match snapshot 1`] = `
+.c0 {
+  background-color: #1b1b1b;
+  padding: 30px 60px;
+  height: 100vh;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 20px;
+  }
+}
+
+<div
+  class="c0"
+>
+  Children goes here
+</div>
+`;

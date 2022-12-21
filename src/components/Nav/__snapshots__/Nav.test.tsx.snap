@@ -1,0 +1,293 @@
+// Vitest Snapshot v1
+
+exports[`<Nav /> > should match snapshot 1`] = `
+.c4 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.c0 {
+  background-color: #1b1b1b;
+  padding: 30px 60px;
+  height: 100vh;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  max-width: 150px;
+}
+
+.c1 {
+  background-color: transparent;
+  height: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  -webkit-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+.c1.active-menu {
+  top: -80px;
+}
+
+.c6 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.c7 {
+  position: fixed;
+  width: 100%;
+  max-width: 500px;
+  top: 0;
+  right: -100%;
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c9 {
+  padding: 30px 0;
+}
+
+.c9 a {
+  padding: 20px 0;
+  color: #616161;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.c9 a:hover {
+  color: #FFFFFF;
+}
+
+.c12 .c5 {
+  color: #616161;
+}
+
+.c12 .c5:hover {
+  color: #06c819;
+}
+
+.c10 {
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    background-color: #272727;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    max-width: 100%;
+  }
+}
+
+<div>
+  <div
+    class="c0 c1"
+  >
+    <nav
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="#home"
+      >
+        <img
+          alt="Damn It Rumi Logo"
+          src="assets/images/damn-it-rumi-text-white.png"
+        />
+      </a>
+      <button
+        class="c4"
+      >
+        <svg
+          aria-hidden="true"
+          class="c5 c6"
+          fill="currentColor"
+          focusable="false"
+          height="30px"
+          viewBox="0 0 24 24"
+          width="30px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </button>
+    </nav>
+    <div
+      aria-hidden="true"
+      class="c7"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="c8"
+        >
+          <button
+            class="c4"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 c6"
+              fill="currentColor"
+              focusable="false"
+              height="30px"
+              viewBox="0 0 24 24"
+              width="30px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="c9"
+        >
+          <h1
+            class="c10"
+          >
+            <a
+              href="/#home"
+            >
+              Home
+            </a>
+          </h1>
+          <h1
+            class="c10"
+          >
+            <a
+              href="/#sobre"
+            >
+              Sobre
+            </a>
+          </h1>
+          <h1
+            class="c10"
+          >
+            <a
+              href="/#ed_exp"
+            >
+              Educação & Experiência
+            </a>
+          </h1>
+          <h1
+            class="c10"
+          >
+            <a
+              href="/#projetos"
+            >
+              Projetos
+            </a>
+          </h1>
+        </div>
+        <div
+          class="c11 c12"
+        >
+          <a
+            href="https://www.linkedin.com/in/gsoares95/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 c6"
+              fill="currentColor"
+              focusable="false"
+              height="30px"
+              viewBox="0 0 24 24"
+              width="30px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/damnitrumi"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="c5 c6"
+              fill="currentColor"
+              focusable="false"
+              height="30px"
+              viewBox="0 0 24 24"
+              width="30px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

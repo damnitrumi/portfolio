@@ -1,0 +1,29 @@
+// Vitest Snapshot v1
+
+exports[`<Button /> > should call function when clicked 1`] = `
+.c0 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+<button
+  class="c0"
+>
+  Clique Aqui
+</button>
+`;
+
+exports[`<Button /> > should match snapshot 1`] = `
+.c0 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+<button
+  class="c0"
+>
+  Clique Aqui
+</button>
+`;

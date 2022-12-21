@@ -1,6 +1,7 @@
-import { Container } from "components/Container";
-import { DataContainer } from "components/DataContainer";
-import { Text } from "components/Text";
+import { Container } from "../Container";
+import { DataContainer } from "../DataContainer";
+import { Text } from "../Text";
+import { Heading } from "../Heading";
 import * as Styled from "./styles";
 import {
   Html5,
@@ -9,7 +10,6 @@ import {
   ReactLogo,
 } from "@styled-icons/boxicons-logos";
 import { Typescript, Nextdotjs, Jest } from "@styled-icons/simple-icons";
-import { Heading } from "components/Heading";
 
 export const Section2 = () => {
   return (
@@ -19,7 +19,7 @@ export const Section2 = () => {
           <Heading size="3.2rem" as="h3">
             Desde maio de 2021 estudando para ser um desenvolvedor front-end.
           </Heading>
-          <Text size="2.2rem">Atualmente trabalho com React.js/Next.JS. </Text>
+          <Text size="2.2rem">Atualmente trabalho com React.js/Next.JS.</Text>
           <Text size="2.2rem">
             No momento procuro a primeira oportunidade como desenvolvedor
             front-end júnior, e futuramente pretendo estudar sobre React Native

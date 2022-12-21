@@ -1,0 +1,217 @@
+// Vitest Snapshot v1
+
+exports[`<Section4 /> > should match snapshot 1`] = `
+.c1 {
+  background-color: #1b1b1b;
+  padding: 30px 60px;
+  height: 100vh;
+}
+
+.c3 {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  color: #FFFFFF;
+  font-size: 3.8rem;
+  font-weight: 400;
+}
+
+.c9 {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  line-height: 30px;
+}
+
+.c6 {
+  text-align: center;
+}
+
+.c6 .c8 {
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.c6:hover .c8 {
+  color: #06c819;
+}
+
+.c7 {
+  overflow: hidden;
+  height: 200px;
+}
+
+.c7 img {
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c7:hover img {
+  -webkit-transform: scale(1.5) rotate(15deg);
+  -ms-transform: scale(1.5) rotate(15deg);
+  transform: scale(1.5) rotate(15deg);
+}
+
+.c0 .c2 {
+  text-align: center;
+}
+
+.c5 {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  overflow-y: auto;
+  margin-top: 30px;
+}
+
+.c5::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    padding: 20px;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    height: 300px;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+    id="projetos"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2 c3"
+      >
+        <h5
+          class="c4"
+        >
+          Projetos
+        </h5>
+        <div
+          class="c5"
+        >
+          <a
+            class="c6"
+            href="https://digidex-react-js-damnitrumi.vercel.app/"
+            target="_blank"
+          >
+            <div
+              class="c7"
+            >
+              <img
+                alt="Digidex"
+                src="/assets/images/digidex.jpg"
+              />
+            </div>
+            <p
+              class="c8 c9"
+            >
+              Digidex
+            </p>
+          </a>
+          <a
+            class="c6"
+            href="https://consulta-cep-react-js-damnitrumi.vercel.app/"
+            target="_blank"
+          >
+            <div
+              class="c7"
+            >
+              <img
+                alt="Consulta CEP"
+                src="/assets/images/consulta-cep.jpg"
+              />
+            </div>
+            <p
+              class="c8 c9"
+            >
+              Consulta CEP
+            </p>
+          </a>
+          <a
+            class="c6"
+            href="https://monstercat-recreation-damnitrumi.vercel.app/"
+            target="_blank"
+          >
+            <div
+              class="c7"
+            >
+              <img
+                alt="Monstercat Recreation"
+                src="/assets/images/monstercat-recreation.jpg"
+              />
+            </div>
+            <p
+              class="c8 c9"
+            >
+              Monstercat Recreation
+            </p>
+          </a>
+          <a
+            class="c6"
+            href="https://ableton-recreation-damnitrumi.vercel.app/"
+            target="_blank"
+          >
+            <div
+              class="c7"
+            >
+              <img
+                alt="Ableton Recreation"
+                src="/assets/images/ableton-recreation.jpg"
+              />
+            </div>
+            <p
+              class="c8 c9"
+            >
+              Ableton Recreation
+            </p>
+          </a>
+          <a
+            class="c6"
+            href="https://calculadora-de-imc-damnitrumi.vercel.app/"
+            target="_blank"
+          >
+            <div
+              class="c7"
+            >
+              <img
+                alt="Calculadora de IMC"
+                src="/assets/images/imc-calc.jpg"
+              />
+            </div>
+            <p
+              class="c8 c9"
+            >
+              Calculadora de IMC
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
