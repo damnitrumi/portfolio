@@ -8,10 +8,11 @@ export const Wrapper = styled.section`
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        gap: 20px;
 
         @media ${theme.media.ltaMedium}{
           flex-direction: column;
-          gap: 20px
+          align-items: stretch;
         }
       }
 
@@ -31,7 +32,7 @@ export const Education = styled.div`
       border-radius: 5px ;
 
       @media ${theme.media.ltaMedium}{
-        flex: 0 1 auto;
+        flex: 0 1 100%;
       }
 
       &:hover{

@@ -8,6 +8,7 @@ export const Nav = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [menuSlide, setMenuSlide] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [resized, setResized] = useState(false);
 
   const handleMenuClick = () => {
     setMenuVisible((v) => !v);
@@ -16,10 +17,8 @@ export const Nav = () => {
   const hideNavOnScroll = () => {
     const scrollWindow = window.scrollY;
     if (scrollWindow > lastScrollY && menuSlide == false) {
-      console.log("Settou true");
       setMenuSlide(true);
     } else if (scrollWindow < lastScrollY && menuSlide == true) {
-      console.log("Settou false");
       setMenuSlide(false);
     }
 
@@ -38,8 +37,24 @@ export const Nav = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lastScrollY]);
 
+  const defineWidth = () => {
+    if (window.innerWidth > 768 && resized == true) {
+      setResized(false);
+    }
+    if (window.innerWidth < 768 && resized == false) {
+      setResized(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", defineWidth);
+
+    return () => window.removeEventListener("resize", defineWidth);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [resized]);
+
   return (
-    <Styled.NavContainer className={menuSlide ? "active-menu" : ""}>
+    <Styled.NavContainer className={menuSlide && resized ? "active-menu" : ""}>
       <Styled.Wrapper>
         <Styled.imgContainer href="#home">
           <img

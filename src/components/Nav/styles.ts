@@ -24,6 +24,7 @@ export const NavContainer = styled(Container)`
     z-index: 1;
     transition: all 500ms ease-in;
 
+
     &.active-menu{
       top: -80px;
     }
