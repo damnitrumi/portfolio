@@ -3,7 +3,7 @@ import { renderTheme } from "../../styles/render-theme";
 import { Section2 } from ".";
 
 describe("< Section2/>", () => {
-  it("should render Section2 and is components", () => {
+  it("should render Section2", () => {
     renderTheme(<Section2 />);
 
     expect(
