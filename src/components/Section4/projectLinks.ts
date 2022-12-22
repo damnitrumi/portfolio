@@ -30,4 +30,14 @@ export const projectLinks: ProjectLinksProps[] = [
     srcImg: "/assets/images/imc-calc.jpg",
     name: "Calculadora de IMC",
   },
+  {
+    link: "https://wildbeast-origamid-damnitrumi.vercel.app/",
+    srcImg: "/assets/images/wildbeast.jpg",
+    name: "WildBeast - Origamid",
+  },
+  {
+    link: "https://flexblog-origamid-damnitrumi.vercel.app/",
+    srcImg: "/assets/images/flexblog.jpg",
+    name: "FlexBlog - Origamid",
+  },
 ];
