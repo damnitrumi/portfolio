@@ -16,6 +16,11 @@ export const projectLinks: ProjectLinksProps[] = [
     name: "Consulta CEP",
   },
   {
+    link: "https://posts-page-react-js-damnitrumi.vercel.app/",
+    srcImg: "/assets/images/posts-page.jpg",
+    name: "Posts Page",
+  },
+  {
     link: "https://monstercat-recreation-damnitrumi.vercel.app/",
     srcImg: "/assets/images/monstercat-recreation.jpg",
     name: "Monstercat Recreation",
