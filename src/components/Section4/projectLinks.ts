@@ -7,7 +7,7 @@ type ProjectLinksProps = {
 export const projectLinks: ProjectLinksProps[] = [
   {
     link: "https://netflix-clone-light-nextjs-damnitrumi.vercel.app/",
-    srcImg: "/assets/images/netflix-light.jpg",
+    srcImg: "/assets/images/netflix-recreation-light.jpg",
     name: "Netflix Recreation",
   },
   {
