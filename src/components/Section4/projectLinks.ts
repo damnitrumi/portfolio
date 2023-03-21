@@ -6,6 +6,11 @@ type ProjectLinksProps = {
 
 export const projectLinks: ProjectLinksProps[] = [
   {
+    link: "https://to-do-list-damnitrumi.vercel.app/",
+    srcImg: "/assets/images/to-do-list.jpg",
+    name: "To-do list",
+  },
+  {
     link: "https://digidex-react-js-damnitrumi.vercel.app/",
     srcImg: "/assets/images/digidex.jpg",
     name: "Digidex",

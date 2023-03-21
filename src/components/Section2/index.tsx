@@ -49,18 +49,3 @@ export const Section2 = () => {
     </Styled.Wrapper>
   );
 };
-
-{
-  /* <Text size="2.4rem">
-            <br></br>
-            Atualmente trabalho com React.js/Next.JS. <br></br>
-            No momento procuro a primeira oportunidade como desenvolvedor
-            front-end júnior, e <br></br>
-            futuramente pretendo estudar sobre React Native pois penso em partir
-            para o <br></br>
-            desenvolvimento Mobile. <br></br>
-            <br></br>
-            Inglês fluente. <br></br>
-            <br></br>
-          </Text> */
-}
