@@ -31,6 +31,10 @@ export const Section3 = () => {
               <Text size="1.4rem">
                 Web Design Completo (HTML, CSS e Javascript)
               </Text>
+              <Text size="1.4rem">Javascript Completo</Text>
+              <Text size="1.4rem">React.js</Text>
+              <Text size="1.4rem">Next.Js</Text>
+              <Text size="1.4rem">Typescript</Text>
             </Styled.EducationData>
           </Styled.Education>
           <Styled.Experience>
