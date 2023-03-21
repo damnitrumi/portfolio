@@ -6,9 +6,19 @@ type ProjectLinksProps = {
 
 export const projectLinks: ProjectLinksProps[] = [
   {
+    link: "https://netflix-clone-light-nextjs-damnitrumi.vercel.app/",
+    srcImg: "/assets/images/netflix-light.jpg",
+    name: "Netflix Recreation",
+  },
+  {
+    link: "https://weather-app-nextjs-damnitrumi.vercel.app/",
+    srcImg: "/assets/images/weather-app.jpg",
+    name: "Weather App",
+  },
+  {
     link: "https://to-do-list-damnitrumi.vercel.app/",
     srcImg: "/assets/images/to-do-list.jpg",
-    name: "To-do list",
+    name: "To-do List",
   },
   {
     link: "https://digidex-react-js-damnitrumi.vercel.app/",
