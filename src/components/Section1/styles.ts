@@ -12,5 +12,11 @@ export const Wrapper = styled.div`
           font-size: 1.6rem;
         }
       }
+
+      @media (max-width: 340px) {
+        ${Heading}{
+          font-size: 6.0rem;
+        }
+      }
     `}
 `;

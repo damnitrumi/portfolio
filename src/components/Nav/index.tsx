@@ -1,14 +1,17 @@
 import { Button } from "../Button";
 import * as Styled from "./styles";
 import { Menu as MenuIcon } from "@styled-icons/material-outlined";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Menu } from "../Menu";
+import { ToggleTheme } from "components/ToggleTheme";
+import { PageThemeContext } from "contexts/PageTheme";
 
 export const Nav = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [menuSlide, setMenuSlide] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [resized, setResized] = useState(false);
+  const { theme } = useContext(PageThemeContext);
 
   const handleMenuClick = () => {
     setMenuVisible((v) => !v);
@@ -53,18 +56,23 @@ export const Nav = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [resized]);
 
+  const colorTheme = theme.name === "dark" ? "white" : "black";
+
   return (
     <Styled.NavContainer className={menuSlide && resized ? "active-menu" : ""}>
       <Styled.Wrapper>
         <Styled.imgContainer href="#home">
           <img
-            src="assets/images/damn-it-rumi-text-white.png"
+            src={`assets/images/damn-it-rumi-text-${colorTheme}.png`}
             alt="Damn It Rumi Logo"
           />
         </Styled.imgContainer>
-        <Button onClick={handleMenuClick}>
-          <MenuIcon size="30px" />
-        </Button>
+        <Styled.BtnsContainer>
+          <ToggleTheme />
+          <Button onClick={handleMenuClick}>
+            <MenuIcon size="30px" />
+          </Button>
+        </Styled.BtnsContainer>
       </Styled.Wrapper>
       {menuVisible && <Styled.bgMenu aria-label="bgMenu" />}
 

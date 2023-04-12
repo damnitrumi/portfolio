@@ -1,4 +1,5 @@
 export const theme = {
+  name: "dark",
   colors: {
     primaryColor: "#1b1b1b",
     secondaryColor: "#dc143c",
@@ -44,4 +45,52 @@ export const theme = {
     containerDefault: "30px 60px",
     containerLtaMedium: "20px",
   },
-} as const;
+};
+// export const theme = {
+//   name: "light",
+//   colors: {
+//     primaryColor: "#FFFFFF",
+//     secondaryColor: "#dc143c",
+//     white: "#000000",
+//     black: "#FFFFFF",
+//     mediumGray: "#DDDDDD",
+//     hoverGreen: "#06c819",
+//     menuGray: "#616161",
+//     mediaGray: "#272727",
+//   },
+//   font: {
+//     family: {
+//       default: "'Open Sans', sans-serif",
+//       secondary: "'Montserrat', sans-serif",
+//       headings: "Bebas Neue",
+//       body: "Gotham",
+//     },
+//     sizes: {
+//       xsmall: "8rem",
+//       small: "1.6rem",
+//       medium: "2.4rem",
+//       large: "3.2rem",
+//       xlarge: "4.0rem",
+//       xxlarge: "4.8rem",
+//       huge: "5.6rem",
+//       xhuge: "6.4rem",
+//     },
+//   },
+//   media: {
+//     ltaMedium: "(max-width: 768px)",
+//   },
+//   spacings: {
+//     xsmall: "8rem",
+//     small: "1.6rem",
+//     medium: "2.4rem",
+//     large: "3.2rem",
+//     xlarge: "4.0rem",
+//     xxlarge: "4.8rem",
+//     huge: "5.6rem",
+//     xhuge: "6.4rem",
+//   },
+//   paddings: {
+//     containerDefault: "30px 60px",
+//     containerLtaMedium: "20px",
+//   },
+// };

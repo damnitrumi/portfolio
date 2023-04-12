@@ -30,7 +30,7 @@ export const NavContainer = styled(Container)`
     }
 
     @media ${({ theme }) => theme.media.ltaMedium}{
-      background-color: ${({ theme }) => theme.colors.mediaGray};
+      background-color: ${({ theme }) => theme.colors.primaryColor};
     }
 `;
 
@@ -42,4 +42,12 @@ export const bgMenu = styled.div`
     left: 0;
     background-color: rgba(0, 0, 0, 0.3);
     /* pointer-events: none; */
+`;
+
+export const BtnsContainer = styled.div`
+  ${() => css`
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  `}
 `;

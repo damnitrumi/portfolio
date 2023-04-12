@@ -16,7 +16,7 @@ export const FooterContainer = styled(Container)`
     bottom: 0;
 
     @media ${({ theme }) => theme.media.ltaMedium}{
-      background-color: ${({ theme }) => theme.colors.mediaGray};
+      background-color: ${({ theme }) => theme.colors.primaryColor};
     }
 `;
 

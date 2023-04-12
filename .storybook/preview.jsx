@@ -2,6 +2,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../src/styles/global-styles';
 import { theme } from '../src/styles/theme';
 import '../public/assets/fonts/styles.css';
+import { PageThemeProvider } from '../src/contexts/PageTheme/index'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -23,11 +24,11 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <ThemeProvider theme={theme}>
+    <PageThemeProvider>
       <div style={{height: '200vh'}}>
         <Story />
         <GlobalStyles />
       </div>
-    </ThemeProvider>
+    </PageThemeProvider>
   ),
 ];
